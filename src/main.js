@@ -65,5 +65,5 @@ refs.form.addEventListener("submit", event => {
                 timeout: 2000,
             });
         })
-        
+        .finally(() => hideLoader());
 });
