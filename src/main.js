@@ -30,7 +30,7 @@ refs.form.addEventListener("submit", event => {
             messageColor: 'white',
             messageSize: '20',
             backgroundColor: 'red',
-            position: 'center',
+            position: 'topRight',
             timeout: 2000,
         });
         return;
@@ -47,7 +47,7 @@ refs.form.addEventListener("submit", event => {
                     messageColor: 'white',
                     messageSize: '20',
                     backgroundColor: 'red',
-                    position: 'center',
+                    position: 'topRight',
                     timeout: 2000,
                 });
                 return;
@@ -61,7 +61,7 @@ refs.form.addEventListener("submit", event => {
                 messageColor: 'white',
                 messageSize: '20',
                 backgroundColor: 'red',
-                position: 'center',
+                position: 'topRight',
                 timeout: 2000,
             });
         })
